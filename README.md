@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/README.md b/README.md
 index 134f0f2a648b9b311a4e1bbdc748c07e8bea33b6..3aa8f440a38b222d744a7cf13f85d3664cbb9888 100644
 --- a/README.md
@@ -114,6 +113,3 @@ index 134f0f2a648b9b311a4e1bbdc748c07e8bea33b6..3aa8f440a38b222d744a7cf13f85d366
  - Check how it looks on mobile phones
  
  ## 🎨 Want Different Colors?
- 
-EOF
-)
