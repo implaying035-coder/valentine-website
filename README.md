@@ -109,7 +109,11 @@ animations: {
 music: {
     enabled: true, // Music feature is enabled
     autoplay: true, // Try to autoplay (note: some browsers may block this)
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your music URL here
+    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Fallback single track URL
+    tracks: [ // Optional playlist (rotates automatically)
+        { title: "Sky (Falling for You) — Whatsaheart", url: "YOUR_TRACK_URL_1" },
+        { title: "For Her — Whatsaheart", url: "YOUR_TRACK_URL_2" }
+    ],
     startText: "🎵 Play Music", // Button text to start music
     stopText: "🔇 Stop Music", // Button text to stop music
     volume: 0.5 // Volume level (0.0 to 1.0)
@@ -146,12 +150,22 @@ Want to make it extra special with your own romantic song? Follow these steps to
 music: {
     enabled: true,
     autoplay: true,
-    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Paste your URL here
+    musicUrl: "YOUR_CLOUDINARY_URL_HERE", // Fallback URL if playlist is empty
+    tracks: [
+        { title: "Sky (Falling for You) — Whatsaheart", url: "YOUR_TRACK_URL_1" },
+        { title: "For Her — Whatsaheart", url: "YOUR_TRACK_URL_2" },
+        { title: "Like Me — Whatsaheart", url: "YOUR_TRACK_URL_3" },
+        { title: "Starboy — The Weeknd", url: "YOUR_TRACK_URL_4" },
+        { title: "Snakelike (The Stars Collide) — Whatsaheart", url: "YOUR_TRACK_URL_5" }
+    ],
     startText: "🎵 Play Music",
     stopText: "🔇 Stop Music",
     volume: 0.5
 }
 ```
+
+
+> ✅ **Playlist tip:** Add direct `.mp3` URLs in `music.tracks` to make the player auto-rotate through songs.
 
 ### 4. Make It Live! (Get your online website URL)
 
