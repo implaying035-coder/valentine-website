@@ -90,11 +90,11 @@ const CONFIG = {
             },
             {
                 title: "Like Me — Whatsaheart",
-                url: "YOUR_LIKE_ME_URL_HERE"
+                url: "https://res.cloudinary.com/dh4c3vc7r/video/upload/v1770887359/like_me_w6b9qw.mp3"
             },
             {
                 title: "Starboy — The Weeknd",
-                url: "YOUR_STARBOY_URL_HERE"
+                url: "https://res.cloudinary.com/dh4c3vc7r/video/upload/v1770887437/The_Weeknd_-_Starboy_Audio_ft._Daft_Punk_bs0pex.mp3"
             },
             {
                 title: "Snakelike (The Stars Collide) — Whatsaheart",
