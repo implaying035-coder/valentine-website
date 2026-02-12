@@ -98,7 +98,7 @@ const CONFIG = {
             },
             {
                 title: "Snakelike (The Stars Collide) — Whatsaheart",
-                url: "YOUR_SNAKELIKE_URL_HERE"
+                url: "https://res.cloudinary.com/dh4c3vc7r/video/upload/v1770887437/The_Weeknd_-_Starboy_Audio_ft._Daft_Punk_bs0pex.mp3"
             }
         ],
         startText: "🎵 Play Music",        // Button text to start music
