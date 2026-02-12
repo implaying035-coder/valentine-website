@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/config.js b/config.js
 index 3cafc4aff553f4f6a4bbdfac1800771f4a413aa8..cbbf9fff082fac3f7d210673ad8fbde8230fe79c 100644
 --- a/config.js
@@ -130,6 +129,3 @@ index 3cafc4aff553f4f6a4bbdfac1800771f4a413aa8..cbbf9fff082fac3f7d210673ad8fbde8
 -window.VALENTINE_CONFIG = CONFIG; 
 \ No newline at end of file
 +window.VALENTINE_CONFIG = CONFIG; 
- 
-EOF
-)
