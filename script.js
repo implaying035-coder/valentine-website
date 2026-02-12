@@ -1,4 +1,3 @@
- (cd "$(git rev-parse --show-toplevel)" && git apply --3way <<'EOF' 
 diff --git a/script.js b/script.js
 index 6bec45c7e62d74835f452d4dcd1069ce039a1b9f..5d1ba2061cd433e0675a958c95780c47cda09ab2 100644
 --- a/script.js
@@ -115,6 +114,3 @@ index 6bec45c7e62d74835f452d4dcd1069ce039a1b9f..5d1ba2061cd433e0675a958c95780c47
 -} 
 \ No newline at end of file
 +}
- 
-EOF
-)
